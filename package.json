@@ -1,0 +1,18 @@
+{
+  "name": "jenkins-nodejs-test",
+  "version": "1.0.0",
+  "description": "Sample project for testing building nodejs in Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "nyc ./node_modules/mocha/bin/_mocha ./"
+  },
+  "author": "jxpearce@godaddy.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.3"
+  }
+}
